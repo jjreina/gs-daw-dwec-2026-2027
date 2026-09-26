@@ -1,4 +1,4 @@
-import * as sc from "./switch-case_solution";
+import * as sc from "./switch-case";
 
 describe("switch-case days of week", () => {
   it('should returns "Lunes" for the number 1', () => {
