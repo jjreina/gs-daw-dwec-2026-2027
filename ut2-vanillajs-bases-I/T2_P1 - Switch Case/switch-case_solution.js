@@ -88,10 +88,10 @@ export const simpleCalculatorSC = (operartor, num_1, num_2) => {
  * Cada propieda del objeto debe realizar la operación correspodiente
  */
 let calculatorObject = {
-  "+": (num_1, num_2) => num_1 + num_2,
-  "-": (num_1, num_2) => num_1 - num_2,
-  "*": (num_1, num_2) => num_1 * num_2,
-  "/": (num_1, num_2) => num_1 / num_2,
+  "+": (num_1, num_2) => num_1 + num_2, // Equivale a: function (num_1, num_2) { return num_1 + num_2; }
+  "-": (num_1, num_2) => num_1 - num_2, // Equivale a: function (num_1, num_2) { return num_1 - num_2; }
+  "*": (num_1, num_2) => num_1 * num_2, // Equivale a: function (num_1, num_2) { return num_1 * num_2; }
+  "/": (num_1, num_2) => num_1 / num_2, // Equivale a: function (num_1, num_2) { return num_1 / num_2; }
 };
 
 /**

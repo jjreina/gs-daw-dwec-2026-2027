@@ -35,14 +35,14 @@ export const getDayOfWeekObject = (day) => {};
 const DEFAULT_OPERARTOR_ERROR = "Operator invalid";
 
 /**
- * Crea un calculadora básica que sume, reste, multiplique y divide. Usando switch case
+ * Crea un calculadora básica que sume, reste, multiplique y divida. Usando switch case
  * Operadores validos ("+", "-", "*", "/")
  * En cualquier otro caso debe devolver DEFAULT_OPERARTOR_ERROR
  */
 export const simpleCalculatorSC = (operartor, num_1, num_2) => {};
 
 /**
- * Crea un objeto con los operadores básicos +, -, *, ,/
+ * Crea un objeto con los operadores básicos +, -, *, /
  * Cada propieda del objeto debe realizar la operación correspodiente
  */
 let calculatorObject = {};
