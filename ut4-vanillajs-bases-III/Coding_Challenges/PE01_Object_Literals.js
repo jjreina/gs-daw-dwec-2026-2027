@@ -3218,7 +3218,7 @@ let forecast = {
   },
 };
 
-/** TODO: Completar los ejercicios de la práctica de JavaScript con el objeto `forecast` proporcionado.
+/** TODO: Completar los ejercicios  con el objeto `forecast` proporcionado.
 Nivel 1 – Básico
     Acceso directo a propiedades de objetos.
     1. Muestra el nombre de la ciudad.
