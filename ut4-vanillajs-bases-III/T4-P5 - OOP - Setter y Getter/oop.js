@@ -24,12 +24,4 @@ export class Books {
   set author(author) {
     this.#author = author;
   }
-
-  get published() {
-    return this.published;
-  }
-
-  set published(published) {
-    this.published = published;
-  }
 }
