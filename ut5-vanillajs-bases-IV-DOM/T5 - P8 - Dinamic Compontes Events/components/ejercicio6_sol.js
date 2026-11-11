@@ -22,10 +22,20 @@ export const ejercicio6 = () => {
   select.id = "lenguaje";
   select.name = "lenguaje";
   select.classList.add("ej6-selector");
+  select.addEventListener("change", (event) => {
+    const radioButtons = document.querySelectorAll('input[type="radio"]');
+    const radio = Array.from(radioButtons).find(
+      (radio) => radio.value === event.target.value,
+    );
+
+    if (radio) {
+      radio.checked = true;
+    }
+  });
 
   const lenguajes = [
     { valor: "", texto: "Selecciona un lenguaje" },
-    { valor: "js", texto: "JavaScript" },
+    { valor: "javascript", texto: "JavaScript" },
     { valor: "python", texto: "Python" },
     { valor: "java", texto: "Java" },
     { valor: "php", texto: "PHP" },

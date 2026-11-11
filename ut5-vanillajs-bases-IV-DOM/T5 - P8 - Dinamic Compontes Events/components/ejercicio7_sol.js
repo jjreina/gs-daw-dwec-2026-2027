@@ -28,9 +28,10 @@ export const ejercicio7 = () => {
   fieldset.append(legend);
 
   const turnos = [
-    { valor: "manana", texto: "Mañana" },
-    { valor: "tarde", texto: "Tarde" },
-    { valor: "noche", texto: "Noche" },
+    { valor: "javascript", texto: "JavaScript" },
+    { valor: "python", texto: "Python" },
+    { valor: "java", texto: "Java" },
+    { valor: "php", texto: "PHP" },
   ];
 
   turnos.forEach((turno, indice) => {
@@ -43,10 +44,6 @@ export const ejercicio7 = () => {
     radio.name = "turno";
     radio.value = turno.valor;
     radio.classList.add("ej7-opcion");
-
-    if (indice === 0) {
-      radio.checked = true;
-    }
 
     const label = document.createElement("label");
     label.htmlFor = turno.valor;
