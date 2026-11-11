@@ -33,9 +33,9 @@ export const ejercicio3 = () => {
       boton.classList.add("ej3-eliminar");
     }
 
-    contenedor.classList.add("ej3-contenedor");
     contenedor.append(boton);
   });
 
+  contenedor.classList.add("ej3-contenedor");
   return contenedor;
 };

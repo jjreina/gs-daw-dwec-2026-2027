@@ -25,6 +25,13 @@ export const ejercicio3 = () => {
     boton.textContent = datos.texto;
     if (datos.id === "guardar") {
       boton.classList.add("ej3-guardar");
+      boton.addEventListener("click", () => {
+        const inputName = document.querySelector("#nombre");
+        const inputEmail = document.querySelector("#email");
+        const inputAge = document.querySelector("#edad");
+        const textAreaObservations = document.querySelector("#observaciones");
+        textAreaObservations.value = `${inputName.value} ${inputEmail.value} ${inputAge.value}`;
+      });
     }
     if (datos.id === "cancelar") {
       boton.classList.add("ej3-cancelar");
@@ -33,9 +40,9 @@ export const ejercicio3 = () => {
       boton.classList.add("ej3-eliminar");
     }
 
-    contenedor.classList.add("ej3-contenedor");
     contenedor.append(boton);
   });
 
+  contenedor.classList.add("ej3-contenedor");
   return contenedor;
 };
