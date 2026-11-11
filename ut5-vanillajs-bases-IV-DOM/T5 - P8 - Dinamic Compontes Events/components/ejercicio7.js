@@ -16,10 +16,6 @@ Salida HTML esperada:
     <label for="noche">Noche</label>
   </div>
 </fieldset>
-
-💡 EVENTO RECOMENDADO: Agregar 'change' a los radios para mostrar en un párrafo
-   el horario del turno: mañana de 9:00 a 14:00, tarde de 15:00 a 20:00
-   y noche de 20:00 a 22:00. Mostrar inicialmente el horario de mañana.
 */
 export const ejercicio7 = () => {
   const turnos = [

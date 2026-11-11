@@ -9,9 +9,6 @@ Salida HTML esperada:
     <li><strong>Angular</strong><span> – 40 horas</span></li>
   </ol>
 </div>
-
-💡 EVENTO RECOMENDADO: Agregar 'click' a cada <li> para actualizar un párrafo
-   con «Curso seleccionado: », el nombre del curso y su duración en horas.
 */
 export const ejercicio10 = () => {
   const cursos = [

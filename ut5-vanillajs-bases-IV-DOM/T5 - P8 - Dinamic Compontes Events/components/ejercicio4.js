@@ -15,10 +15,6 @@ Salida HTML esperada:
     <input type="number" id="edad" name="edad" />
   </div>
 </div>
-
-💡 EVENTOS RECOMENDADOS: Agregar 'focus' a cada campo para cambiar su borde a azul.
-   Con 'blur', cambiar el borde a verde si el valor es válido y a rojo si no lo es.
-   El nombre no puede estar vacío, el correo debe tener formato válido y la edad debe ser mayor que 0.
 */
 export const ejercicio4 = () => {
   const campos = [

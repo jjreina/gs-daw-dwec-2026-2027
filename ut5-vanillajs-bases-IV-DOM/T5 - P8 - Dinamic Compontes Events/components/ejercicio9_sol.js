@@ -11,9 +11,6 @@ Salida HTML:
     <li>Angular</li>
   </ul>
 </div>
-
-💡 EVENTO RECOMENDADO: Agregar 'click' a cada <li> para alternar su color de texto
-   entre negro y azul, marcando así las tecnologías de interés.
 */
 export const ejercicio9 = () => {
   const tecnologias = ["HTML", "CSS", "JavaScript", "TypeScript", "Angular"];

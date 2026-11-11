@@ -6,9 +6,6 @@ Salida HTML esperada:
   <button id="cancelar" type="button">Cancelar</button>
   <button id="eliminar" type="button">Eliminar</button>
 </div>
-
-💡 EVENTO RECOMENDADO: Agregar 'click' a #eliminar para pedir confirmación con confirm.
-   Si se confirma, eliminar el botón #eliminar; si se cancela, conservarlo.
 */
 export const ejercicio3 = () => {
   const botones = [

@@ -11,9 +11,6 @@ Salida HTML esperada:
     <option value="php">PHP</option>
   </select>
 </div>
-
-💡 EVENTO RECOMENDADO: Agregar 'change' al select para mostrar en un párrafo
-   «Lenguaje seleccionado: » seguido del texto de la opción elegida.
 */
 export const ejercicio6 = () => {
   const label = document.createElement("label");

@@ -7,8 +7,6 @@ Salida HTML esperada:
   <p>Aprendemos a crear elementos HTML.</p>
   <p>Utilizaremos JavaScript para modificar el documento.</p>
 </div>
-
-💡 EVENTO RECOMENDADO: Agregar 'click' al h1 para cambiar el color de su texto a azul.
 */
 export const ejercicio1 = () => {
   // TODO: implementar

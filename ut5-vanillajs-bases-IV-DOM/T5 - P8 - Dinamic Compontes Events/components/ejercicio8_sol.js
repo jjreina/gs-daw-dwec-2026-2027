@@ -19,9 +19,6 @@ Salida HTML:
     <label for="typescript">TypeScript</label>
   </div>
 </div>
-
-💡 EVENTO RECOMENDADO: Agregar 'change' a las casillas para actualizar un párrafo
-   con «Tecnologías seleccionadas: » y el número de casillas marcadas. Mostrar el valor inicial.
 */
 export const ejercicio8 = () => {
   const contenedor = document.createElement("div");
