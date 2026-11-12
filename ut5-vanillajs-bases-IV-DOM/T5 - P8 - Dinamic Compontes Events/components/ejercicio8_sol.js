@@ -25,7 +25,7 @@ export const ejercicio8 = () => {
 
   const tecnologias = [
     { valor: "html", texto: "HTML" },
-    { valor: "css", texto: "CSS" },
+    { valor: "angular", texto: "Angular" },
     { valor: "javascript", texto: "JavaScript" },
     { valor: "typescript", texto: "TypeScript" },
   ];
@@ -40,7 +40,19 @@ export const ejercicio8 = () => {
     checkbox.value = tecnologia.valor;
     checkbox.classList.add("ej8-opcion");
 
-    checkbox.checked = indice < 2;
+    // checkbox.checked = indice < 2;
+
+    checkbox.addEventListener("change", (e) => {
+      const strongCurses = document.querySelectorAll(".ej10-nombre");
+      const curse = Array.from(strongCurses).find((strongCurse) => {
+        return strongCurse.textContent.toLowerCase() === e.target.value;
+      });
+      if (curse) {
+        e.target.checked
+          ? (curse.style.color = "green")
+          : (curse.style.color = "red");
+      }
+    });
 
     const label = document.createElement("label");
     label.htmlFor = tecnologia.valor;
